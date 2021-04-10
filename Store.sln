@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{68F89B88-5C6C-45DA-A45C-4FABAF8DB10E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApps", "WebApps", "{66D0BED6-F7CE-46A6-9AF7-27BD3964DBB2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cadastro", "Cadastro", "{CF19A104-AC16-4398-AFDD-C436CBC3D59B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalogo", "Catalogo", "{17B617E0-74BD-4D54-9BBE-26E066F5F8A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{C809AC12-2F13-43E3-9CA4-12D61A91CB79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store.Catalago.Domain", "Store.Catalago.Domain\Store.Catalago.Domain.csproj", "{1410D400-5EA0-4C74-B8CF-9678C0E5A397}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store.Core", "Store.Core\Store.Core.csproj", "{324E2759-C1B8-44AE-8AA6-D3ED48A133FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1410D400-5EA0-4C74-B8CF-9678C0E5A397}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1410D400-5EA0-4C74-B8CF-9678C0E5A397}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1410D400-5EA0-4C74-B8CF-9678C0E5A397}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1410D400-5EA0-4C74-B8CF-9678C0E5A397}.Release|Any CPU.Build.0 = Release|Any CPU
+		{324E2759-C1B8-44AE-8AA6-D3ED48A133FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{324E2759-C1B8-44AE-8AA6-D3ED48A133FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{324E2759-C1B8-44AE-8AA6-D3ED48A133FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{324E2759-C1B8-44AE-8AA6-D3ED48A133FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CF19A104-AC16-4398-AFDD-C436CBC3D59B} = {68F89B88-5C6C-45DA-A45C-4FABAF8DB10E}
+		{17B617E0-74BD-4D54-9BBE-26E066F5F8A8} = {68F89B88-5C6C-45DA-A45C-4FABAF8DB10E}
+		{C809AC12-2F13-43E3-9CA4-12D61A91CB79} = {68F89B88-5C6C-45DA-A45C-4FABAF8DB10E}
+		{1410D400-5EA0-4C74-B8CF-9678C0E5A397} = {17B617E0-74BD-4D54-9BBE-26E066F5F8A8}
+		{324E2759-C1B8-44AE-8AA6-D3ED48A133FB} = {C809AC12-2F13-43E3-9CA4-12D61A91CB79}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7A8BDCD-5EC8-439B-9564-F83DB0A259EC}
+	EndGlobalSection
+EndGlobal
