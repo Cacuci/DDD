@@ -13,9 +13,12 @@ namespace Store.Catalago.Domain
         public DateTime DataCadastro { get; private set; }
         public string Imagem { get; private set; }
         public int QuantidadeEstoque { get; private set; }
+
+        public Dimensoes Dimensoes { get; set; }
+        
         public Categoria Categoria { get; private set; }
 
-        public Produto(string nome, string descricao, bool ativo, decimal valor, Guid categoriaID, DateTime dataCadastro, string imagem)
+        public Produto(string nome, string descricao, bool ativo, decimal valor, Guid categoriaID, DateTime dataCadastro, string imagem, Dimensoes dimensoes)
         {
             Nome = nome;
             Descricao = descricao;
@@ -23,6 +26,9 @@ namespace Store.Catalago.Domain
             Valor = valor;
             DataCadastro = dataCadastro;
             Imagem = imagem;
+            Dimensoes = dimensoes;
+
+            Validar();
         }
 
         public void Ativar() => Ativo = true;
@@ -62,24 +68,11 @@ namespace Store.Catalago.Domain
 
         public void Validar()
         {
-
-        }
-    }
-
-    class Categoria : Entity
-    {
-        public string Nome { get; private set; }
-        public string Codigo { get; private set; }
-
-        public Categoria(string nome, string codigo)
-        {
-            Nome = nome;
-            Codigo = codigo;
-        }
-
-        public override string ToString()
-        {
-            return $"{Codigo} - {Nome}";
+            AssertConcern.Empty(value: Nome, message: "O campo Nome não pode estar vazio");
+            AssertConcern.Empty(value: Descricao, message: "O campo Descrcao não pode estar vazio");
+            AssertConcern.NotEquals(object1: CategoriaID, object2: Guid.Empty, "O campo CategoriaID do produto não pode estar vazio");
+            AssertConcern.SmallEquallMin(value: Valor, min:  0, "O campo Valor não pode ser menor igual a 0");
+            AssertConcern.Empty(value: Imagem, message: "O campo Imagem não pode estar vazio");
         }
     }
 }
