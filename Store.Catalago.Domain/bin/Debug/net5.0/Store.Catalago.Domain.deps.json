@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Store.Catalago.Domain/1.0.0": {
+        "dependencies": {
+          "Store.Core": "1.0.0"
+        },
+        "runtime": {
+          "Store.Catalago.Domain.dll": {}
+        }
+      },
+      "Store.Core/1.0.0": {
+        "runtime": {
+          "Store.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Store.Catalago.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Store.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

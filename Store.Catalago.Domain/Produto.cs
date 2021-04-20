@@ -3,7 +3,7 @@ using System;
 
 namespace Store.Catalago.Domain
 {
-    class Produto : Entity, IAggregateRoot
+    public class Produto : Entity, IAggregateRoot
     {
         public Guid CategoriaID { get; set; }
         public string Nome { get; private set; }
@@ -24,6 +24,7 @@ namespace Store.Catalago.Domain
             Descricao = descricao;
             Ativo = ativo;
             Valor = valor;
+            CategoriaID = categoriaID;
             DataCadastro = dataCadastro;
             Imagem = imagem;
             Dimensoes = dimensoes;
@@ -68,11 +69,11 @@ namespace Store.Catalago.Domain
 
         public void Validar()
         {
-            AssertConcern.Empty(value: Nome, message: "O campo Nome não pode estar vazio");
-            AssertConcern.Empty(value: Descricao, message: "O campo Descrcao não pode estar vazio");
-            AssertConcern.NotEquals(object1: CategoriaID, object2: Guid.Empty, "O campo CategoriaID do produto não pode estar vazio");
-            AssertConcern.SmallEquallMin(value: Valor, min:  0, "O campo Valor não pode ser menor igual a 0");
-            AssertConcern.Empty(value: Imagem, message: "O campo Imagem não pode estar vazio");
+            AssertConcern.Empty(value: Nome, message: "O campo Nome do produto não pode estar vazio");
+            AssertConcern.Empty(value: Descricao, message: "O campo Descricao do produto não pode estar vazio");
+            AssertConcern.Equals(object1: CategoriaID, object2: Guid.Empty, "O campo CategoriaID do produto não pode estar vazio");
+            AssertConcern.SmallEquallMin(value: Valor, min:  0, "O campo Valor do produto não pode se menor igual a 0");
+            AssertConcern.Empty(value: Imagem, message: "O campo Imagem do produto não pode estar vazio");
         }
     }
 }

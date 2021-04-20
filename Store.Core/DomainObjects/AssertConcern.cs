@@ -6,7 +6,7 @@ namespace Store.Core.DomainObjects
     {
         public static void Equals(object object1, object object2, string message)
         {
-            if (!object1.Equals(object2))
+            if (object1.Equals(object2))
             {
                 throw new DomainException(message);
             }
@@ -14,13 +14,13 @@ namespace Store.Core.DomainObjects
 
         public static void NotEquals(object object1, object object2, string message)
         {
-            if (object1.Equals(object2))
+            if (!object1.Equals(object2))
             {
                 throw new DomainException(message);
             }
         }
 
-        public  static void CharMinAndMax(string value, int min, int max, string message)
+        public static void CharMinAndMax(string value, int min, int max, string message)
         {
             var lenght = value.Length;
 
@@ -172,7 +172,7 @@ namespace Store.Core.DomainObjects
 
         public static void False(bool value, string message)
         {
-            if (value)
+            if (!value)
             {
                 throw new DomainException(message);
             }
@@ -180,7 +180,7 @@ namespace Store.Core.DomainObjects
 
         public static void True(bool value, string message)
         {
-            if (!value)
+            if (value)
             {
                 throw new DomainException(message);
             }

@@ -10,7 +10,7 @@ namespace Store.Catalago.Domain
 
         public Dimensoes(decimal altura, decimal largura, decimal profundidade)
         {
-            AssertConcern.SmallThatlMin(value: altura, min: 1, message: "O campo Altura não pode ser menor ou igual 0");
+            AssertConcern.SmallThatlMin(value: altura, min: 1, message: "O campo Altura não pode ser menor ou igual a 0");
             AssertConcern.SmallThatlMin(value: largura, min: 1, message: "O campo Largura não pode ser menor ou igual 0");
             AssertConcern.SmallThatlMin(value: profundidade, min: 1, message: "O campo Profundidade não pode ser menor ou igual 0");
 

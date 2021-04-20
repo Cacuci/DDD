@@ -1,16 +1,25 @@
 using Store.Core.DomainObjects;
+using System.Collections.Generic;
 
 namespace Store.Catalago.Domain
 {
     public class Categoria : Entity
     {
         public string Nome { get; private set; }
-        public string Codigo { get; private set; }
+        public int Codigo { get; private set; }
 
-        public Categoria(string nome, string codigo)
+        public ICollection<Produto> Produtos { get; set; }
+
+        //EF Relation
+        public Categoria(string nome, int codigo)
         {
             Nome = nome;
             Codigo = codigo;
+        }
+
+        //EF Relation
+        protected Categoria()
+        {
         }
 
         public override string ToString()
