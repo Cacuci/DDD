@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Store.Catalago.Domain;
+using Store.Catalago.Domain.Models;
 using Store.Core.Data;
 using System;
 using System.Linq;

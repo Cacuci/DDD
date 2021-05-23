@@ -1,4 +1,4 @@
-using Store.Catalago.Domain;
+using Store.Catalago.Domain.Models;
 using Store.Core.DomainObjects;
 using System;
 using Xunit;

@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Store.Catalago.Domain;
+using Store.Catalago.Domain.Models;
 
 namespace Store.Catalogo.Data.Mapping
 {

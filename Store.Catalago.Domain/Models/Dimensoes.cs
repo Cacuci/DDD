@@ -1,6 +1,6 @@
 using Store.Core.DomainObjects;
 
-namespace Store.Catalago.Domain
+namespace Store.Catalago.Domain.Models
 {
     public class Dimensoes
     {

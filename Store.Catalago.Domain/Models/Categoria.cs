@@ -1,7 +1,7 @@
 using Store.Core.DomainObjects;
 using System.Collections.Generic;
 
-namespace Store.Catalago.Domain
+namespace Store.Catalago.Domain.Models
 {
     public class Categoria : Entity
     {

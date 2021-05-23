@@ -1,4 +1,4 @@
-﻿using Store.Catalago.Domain;
+﻿using Store.Catalago.Domain.Models;
 using Store.Catalago.Domain.Repository;
 using Store.Core.Data;
 using System;

@@ -1,3 +1,8 @@
+C:\Users\DEV02\Documents\GitHub\DDD\Store.Catalogo.Domain.Tests\obj\Release\net5.0\Store.Catalogo.Domain.Tests.csprojAssemblyReference.cache
+C:\Users\DEV02\Documents\GitHub\DDD\Store.Catalogo.Domain.Tests\obj\Release\net5.0\Store.Catalogo.Domain.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DEV02\Documents\GitHub\DDD\Store.Catalogo.Domain.Tests\obj\Release\net5.0\Store.Catalogo.Domain.Tests.AssemblyInfoInputs.cache
+C:\Users\DEV02\Documents\GitHub\DDD\Store.Catalogo.Domain.Tests\obj\Release\net5.0\Store.Catalogo.Domain.Tests.AssemblyInfo.cs
+C:\Users\DEV02\Documents\GitHub\DDD\Store.Catalogo.Domain.Tests\obj\Release\net5.0\Store.Catalogo.Domain.Tests.csproj.CoreCompileInputs.cache
 C:\Users\DEV02\Documents\GitHub\DDD\Store.Catalogo.Domain.Tests\bin\Release\net5.0\testhost.dll
 C:\Users\DEV02\Documents\GitHub\DDD\Store.Catalogo.Domain.Tests\bin\Release\net5.0\testhost.exe
 C:\Users\DEV02\Documents\GitHub\DDD\Store.Catalogo.Domain.Tests\bin\Release\net5.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
@@ -9,6 +14,7 @@ C:\Users\DEV02\Documents\GitHub\DDD\Store.Catalogo.Domain.Tests\bin\Release\net5
 C:\Users\DEV02\Documents\GitHub\DDD\Store.Catalogo.Domain.Tests\bin\Release\net5.0\Store.Catalogo.Domain.Tests.dll
 C:\Users\DEV02\Documents\GitHub\DDD\Store.Catalogo.Domain.Tests\bin\Release\net5.0\ref\Store.Catalogo.Domain.Tests.dll
 C:\Users\DEV02\Documents\GitHub\DDD\Store.Catalogo.Domain.Tests\bin\Release\net5.0\Store.Catalogo.Domain.Tests.pdb
+C:\Users\DEV02\Documents\GitHub\DDD\Store.Catalogo.Domain.Tests\bin\Release\net5.0\MediatR.dll
 C:\Users\DEV02\Documents\GitHub\DDD\Store.Catalogo.Domain.Tests\bin\Release\net5.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
 C:\Users\DEV02\Documents\GitHub\DDD\Store.Catalogo.Domain.Tests\bin\Release\net5.0\Microsoft.TestPlatform.CoreUtilities.dll
 C:\Users\DEV02\Documents\GitHub\DDD\Store.Catalogo.Domain.Tests\bin\Release\net5.0\Microsoft.TestPlatform.PlatformAbstractions.dll
@@ -92,11 +98,6 @@ C:\Users\DEV02\Documents\GitHub\DDD\Store.Catalogo.Domain.Tests\bin\Release\net5
 C:\Users\DEV02\Documents\GitHub\DDD\Store.Catalogo.Domain.Tests\bin\Release\net5.0\Store.Core.dll
 C:\Users\DEV02\Documents\GitHub\DDD\Store.Catalogo.Domain.Tests\bin\Release\net5.0\Store.Catalago.Domain.pdb
 C:\Users\DEV02\Documents\GitHub\DDD\Store.Catalogo.Domain.Tests\bin\Release\net5.0\Store.Core.pdb
-C:\Users\DEV02\Documents\GitHub\DDD\Store.Catalogo.Domain.Tests\obj\Release\net5.0\Store.Catalogo.Domain.Tests.csprojAssemblyReference.cache
-C:\Users\DEV02\Documents\GitHub\DDD\Store.Catalogo.Domain.Tests\obj\Release\net5.0\Store.Catalogo.Domain.Tests.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\DEV02\Documents\GitHub\DDD\Store.Catalogo.Domain.Tests\obj\Release\net5.0\Store.Catalogo.Domain.Tests.AssemblyInfoInputs.cache
-C:\Users\DEV02\Documents\GitHub\DDD\Store.Catalogo.Domain.Tests\obj\Release\net5.0\Store.Catalogo.Domain.Tests.AssemblyInfo.cs
-C:\Users\DEV02\Documents\GitHub\DDD\Store.Catalogo.Domain.Tests\obj\Release\net5.0\Store.Catalogo.Domain.Tests.csproj.CoreCompileInputs.cache
 C:\Users\DEV02\Documents\GitHub\DDD\Store.Catalogo.Domain.Tests\obj\Release\net5.0\Store.Catalogo.Domain.Tests.csproj.CopyComplete
 C:\Users\DEV02\Documents\GitHub\DDD\Store.Catalogo.Domain.Tests\obj\Release\net5.0\Store.Catalogo.Domain.Tests.dll
 C:\Users\DEV02\Documents\GitHub\DDD\Store.Catalogo.Domain.Tests\obj\Release\net5.0\ref\Store.Catalogo.Domain.Tests.dll

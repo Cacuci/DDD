@@ -1,7 +1,7 @@
 ﻿using Store.Core.DomainObjects;
 using System;
 
-namespace Store.Catalago.Domain
+namespace Store.Catalago.Domain.Models
 {
     public class Produto : Entity, IAggregateRoot
     {

@@ -1,4 +1,5 @@
-﻿using Store.Core.Data;
+﻿using Store.Catalago.Domain.Models;
+using Store.Core.Data;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
