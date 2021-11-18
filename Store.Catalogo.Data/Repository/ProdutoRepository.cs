@@ -1,5 +1,5 @@
-﻿using Store.Catalago.Domain.Models;
-using Store.Catalago.Domain.Repository;
+﻿using Store.Catalogo.Domain.Models;
+using Store.Catalogo.Domain.Repository;
 using Store.Core.Data;
 using System;
 using System.Collections.Generic;

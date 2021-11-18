@@ -10,3 +10,15 @@ C:\Users\DEV02\Documents\GitHub\DDD\Store.Core\obj\Debug\net5.0\Store.Core.dll
 C:\Users\DEV02\Documents\GitHub\DDD\Store.Core\obj\Debug\net5.0\ref\Store.Core.dll
 C:\Users\DEV02\Documents\GitHub\DDD\Store.Core\obj\Debug\net5.0\Store.Core.pdb
 C:\Users\DEV02\Documents\GitHub\DDD\Store.Core\obj\Debug\net5.0\Store.Core.csprojAssemblyReference.cache
+C:\Users\ti\Documents\GitHub\DDD\Store.Core\bin\Debug\net5.0\Store.Core.deps.json
+C:\Users\ti\Documents\GitHub\DDD\Store.Core\bin\Debug\net5.0\Store.Core.dll
+C:\Users\ti\Documents\GitHub\DDD\Store.Core\bin\Debug\net5.0\ref\Store.Core.dll
+C:\Users\ti\Documents\GitHub\DDD\Store.Core\bin\Debug\net5.0\Store.Core.pdb
+C:\Users\ti\Documents\GitHub\DDD\Store.Core\obj\Debug\net5.0\Store.Core.csproj.AssemblyReference.cache
+C:\Users\ti\Documents\GitHub\DDD\Store.Core\obj\Debug\net5.0\Store.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ti\Documents\GitHub\DDD\Store.Core\obj\Debug\net5.0\Store.Core.AssemblyInfoInputs.cache
+C:\Users\ti\Documents\GitHub\DDD\Store.Core\obj\Debug\net5.0\Store.Core.AssemblyInfo.cs
+C:\Users\ti\Documents\GitHub\DDD\Store.Core\obj\Debug\net5.0\Store.Core.csproj.CoreCompileInputs.cache
+C:\Users\ti\Documents\GitHub\DDD\Store.Core\obj\Debug\net5.0\Store.Core.dll
+C:\Users\ti\Documents\GitHub\DDD\Store.Core\obj\Debug\net5.0\ref\Store.Core.dll
+C:\Users\ti\Documents\GitHub\DDD\Store.Core\obj\Debug\net5.0\Store.Core.pdb

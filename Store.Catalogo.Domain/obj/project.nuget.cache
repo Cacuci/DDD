@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "SIApZymgYyRrX197p6vpL/DFn15Rj6NRgp5lTzIygxg+fbqRGs7SV2nSqa/8QtNATm3/Ga30fpfho/BiT28NMg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Catalogo.Domain\\Store.Catalogo.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ti\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

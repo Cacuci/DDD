@@ -50,6 +50,11 @@ namespace Store.Core.DomainObjects
 
         public override int GetHashCode() => (GetType().GetHashCode() * 907) + ID.GetHashCode();
 
-        public override string ToString() =>  $"{GetType().Name} [ID={ID}]";        
+        public override string ToString() =>  $"{GetType().Name} [ID={ID}]";    
+
+        public virtual bool EhValido()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

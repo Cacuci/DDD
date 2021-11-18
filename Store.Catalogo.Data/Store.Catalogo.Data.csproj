@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Store.Catalago.Domain\Store.Catalago.Domain.csproj" />
+    <ProjectReference Include="..\Store.Catalogo.Domain\Store.Catalogo.Domain.csproj" />
     <ProjectReference Include="..\Store.Core\Store.Core.csproj" />
   </ItemGroup>
 
