@@ -1,4 +1,4 @@
-﻿using Store.Core.DomainObjects;
+﻿using Store.Core.Messages.CommonMessages.DomainEvents;
 using System;
 
 namespace Store.Catalogo.Domain.Events

@@ -10,6 +10,8 @@ using Store.WebApp.MVC.Data;
 using Store.WebApp.MVC.Setup;
 using Store.Catalogo.Application.AutoMapper;
 using Store.Catalogo.Data;
+using Store.Vendas.Data;
+using Store.Pagamentos.Data;
 
 namespace Store.WebApp.MVC
 {
@@ -35,7 +37,14 @@ namespace Store.WebApp.MVC
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDatabaseDeveloperPageExceptionFilter();
 
-            services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+            services.AddDbContext<VendasContext>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddDbContext<PagamentoContext>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddDefaultIdentity<IdentityUser>(options => 
+                options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
 

@@ -1,0 +1,17 @@
+C:\Users\ti\Documents\GitHub\DDD\Store.Pagamentos.AntiCorruption\bin\Debug\net5.0\Store.Pagamentos.AntiCorruption.deps.json
+C:\Users\ti\Documents\GitHub\DDD\Store.Pagamentos.AntiCorruption\bin\Debug\net5.0\Store.Pagamentos.AntiCorruption.dll
+C:\Users\ti\Documents\GitHub\DDD\Store.Pagamentos.AntiCorruption\bin\Debug\net5.0\ref\Store.Pagamentos.AntiCorruption.dll
+C:\Users\ti\Documents\GitHub\DDD\Store.Pagamentos.AntiCorruption\bin\Debug\net5.0\Store.Pagamentos.AntiCorruption.pdb
+C:\Users\ti\Documents\GitHub\DDD\Store.Pagamentos.AntiCorruption\bin\Debug\net5.0\Store.Core.dll
+C:\Users\ti\Documents\GitHub\DDD\Store.Pagamentos.AntiCorruption\bin\Debug\net5.0\Store.Pagamentos.Business.dll
+C:\Users\ti\Documents\GitHub\DDD\Store.Pagamentos.AntiCorruption\bin\Debug\net5.0\Store.Pagamentos.Business.pdb
+C:\Users\ti\Documents\GitHub\DDD\Store.Pagamentos.AntiCorruption\bin\Debug\net5.0\Store.Core.pdb
+C:\Users\ti\Documents\GitHub\DDD\Store.Pagamentos.AntiCorruption\obj\Debug\net5.0\Store.Pagamentos.AntiCorruption.csproj.AssemblyReference.cache
+C:\Users\ti\Documents\GitHub\DDD\Store.Pagamentos.AntiCorruption\obj\Debug\net5.0\Store.Pagamentos.AntiCorruption.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ti\Documents\GitHub\DDD\Store.Pagamentos.AntiCorruption\obj\Debug\net5.0\Store.Pagamentos.AntiCorruption.AssemblyInfoInputs.cache
+C:\Users\ti\Documents\GitHub\DDD\Store.Pagamentos.AntiCorruption\obj\Debug\net5.0\Store.Pagamentos.AntiCorruption.AssemblyInfo.cs
+C:\Users\ti\Documents\GitHub\DDD\Store.Pagamentos.AntiCorruption\obj\Debug\net5.0\Store.Pagamentos.AntiCorruption.csproj.CoreCompileInputs.cache
+C:\Users\ti\Documents\GitHub\DDD\Store.Pagamentos.AntiCorruption\obj\Debug\net5.0\Store.Pagamentos.AntiCorruption.csproj.CopyComplete
+C:\Users\ti\Documents\GitHub\DDD\Store.Pagamentos.AntiCorruption\obj\Debug\net5.0\Store.Pagamentos.AntiCorruption.dll
+C:\Users\ti\Documents\GitHub\DDD\Store.Pagamentos.AntiCorruption\obj\Debug\net5.0\ref\Store.Pagamentos.AntiCorruption.dll
+C:\Users\ti\Documents\GitHub\DDD\Store.Pagamentos.AntiCorruption\obj\Debug\net5.0\Store.Pagamentos.AntiCorruption.pdb

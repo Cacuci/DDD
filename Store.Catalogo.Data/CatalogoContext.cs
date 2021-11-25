@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Store.Catalogo.Domain.Models;
 using Store.Core.Data;
+using Store.Core.Messages;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
@@ -13,7 +14,6 @@ namespace Store.Catalogo.Data
         : base(options) { }
 
         public DbSet<Produto> Produtos { get; set; }
-
         public DbSet<Categoria> Categorias { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -24,6 +24,8 @@ namespace Store.Catalogo.Data
             {
                 property.SetColumnType("varchar(100)");                
             }
+
+            modelBuilder.Ignore<Event>();
 
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(CatalogoContext).Assembly);
         }

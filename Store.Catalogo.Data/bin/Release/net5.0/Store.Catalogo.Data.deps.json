@@ -13,7 +13,7 @@
           "Microsoft.EntityFrameworkCore.Design": "5.0.5",
           "Microsoft.EntityFrameworkCore.Relational": "5.0.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.5",
-          "Store.Catalago.Domain": "1.0.0",
+          "Store.Catalogo.Domain": "1.0.0",
           "Store.Core": "1.0.0"
         },
         "runtime": {
@@ -36,6 +36,14 @@
           "lib/netstandard2.1/EntityFramework.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.400.420.21404"
+          }
+        }
+      },
+      "FluentValidation/10.3.4": {
+        "runtime": {
+          "lib/net5.0/FluentValidation.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "10.3.4.0"
           }
         }
       },
@@ -1162,17 +1170,17 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
-      "Store.Catalago.Domain/1.0.0": {
+      "Store.Catalogo.Domain/1.0.0": {
         "dependencies": {
-          "MediatR": "9.0.0",
           "Store.Core": "1.0.0"
         },
         "runtime": {
-          "Store.Catalago.Domain.dll": {}
+          "Store.Catalogo.Domain.dll": {}
         }
       },
       "Store.Core/1.0.0": {
         "dependencies": {
+          "FluentValidation": "10.3.4",
           "MediatR": "9.0.0"
         },
         "runtime": {
@@ -1193,6 +1201,13 @@
       "sha512": "sha512-yj1+/4tci7Panu3jKDHYizxwVm0Jvm7b7m057b5h4u8NUHGCR8WIWirBTw+8EptRffwftIWPBeIRGNKD1ewEMQ==",
       "path": "entityframework/6.4.4",
       "hashPath": "entityframework.6.4.4.nupkg.sha512"
+    },
+    "FluentValidation/10.3.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hsGRtnhTlCrRbxIOkKp6rCBtkq3UV0i31ckcJtd5j1i99zqLgbQGcbxK0SMU63DIto94f++uIdRpoycu8ySnDQ==",
+      "path": "fluentvalidation/10.3.4",
+      "hashPath": "fluentvalidation.10.3.4.nupkg.sha512"
     },
     "Humanizer.Core/2.8.26": {
       "type": "package",
@@ -1915,7 +1930,7 @@
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
-    "Store.Catalago.Domain/1.0.0": {
+    "Store.Catalogo.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

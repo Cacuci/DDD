@@ -44,6 +44,11 @@
           "Store.Catalogo.Data": "1.0.0",
           "Store.Catalogo.Domain": "1.0.0",
           "Store.Core": "1.0.0",
+          "Store.Pagamentos.AntiCorruption": "1.0.0",
+          "Store.Pagamentos.Business": "1.0.0",
+          "Store.Pagamentos.Data": "1.0.0",
+          "Store.Vendas.Application": "1.0.0",
+          "Store.Vendas.Data": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "5.0.0.0",
@@ -380,6 +385,17 @@
         "compile": {
           "lib/netstandard2.1/EntityFramework.SqlServer.dll": {},
           "lib/netstandard2.1/EntityFramework.dll": {}
+        }
+      },
+      "FluentValidation/10.3.4": {
+        "runtime": {
+          "lib/net5.0/FluentValidation.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "10.3.4.0"
+          }
+        },
+        "compile": {
+          "lib/net5.0/FluentValidation.dll": {}
         }
       },
       "Humanizer.Core/2.8.26": {
@@ -1639,6 +1655,7 @@
       },
       "Store.Core/1.0.0": {
         "dependencies": {
+          "FluentValidation": "10.3.4",
           "MediatR": "9.0.0"
         },
         "runtime": {
@@ -1646,6 +1663,80 @@
         },
         "compile": {
           "Store.Core.dll": {}
+        }
+      },
+      "Store.Pagamentos.AntiCorruption/1.0.0": {
+        "dependencies": {
+          "Store.Pagamentos.Business": "1.0.0"
+        },
+        "runtime": {
+          "Store.Pagamentos.AntiCorruption.dll": {}
+        },
+        "compile": {
+          "Store.Pagamentos.AntiCorruption.dll": {}
+        }
+      },
+      "Store.Pagamentos.Business/1.0.0": {
+        "dependencies": {
+          "Store.Core": "1.0.0"
+        },
+        "runtime": {
+          "Store.Pagamentos.Business.dll": {}
+        },
+        "compile": {
+          "Store.Pagamentos.Business.dll": {}
+        }
+      },
+      "Store.Pagamentos.Data/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.11",
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.11",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.11",
+          "Store.Core": "1.0.0",
+          "Store.Pagamentos.Business": "1.0.0"
+        },
+        "runtime": {
+          "Store.Pagamentos.Data.dll": {}
+        },
+        "compile": {
+          "Store.Pagamentos.Data.dll": {}
+        }
+      },
+      "Store.Vendas.Application/1.0.0": {
+        "dependencies": {
+          "Store.Core": "1.0.0",
+          "Store.Vendas.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Store.Vendas.Application.dll": {}
+        },
+        "compile": {
+          "Store.Vendas.Application.dll": {}
+        }
+      },
+      "Store.Vendas.Data/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.11",
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.11",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.11",
+          "Store.Vendas.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Store.Vendas.Data.dll": {}
+        },
+        "compile": {
+          "Store.Vendas.Data.dll": {}
+        }
+      },
+      "Store.Vendas.Domain/1.0.0": {
+        "dependencies": {
+          "Store.Core": "1.0.0"
+        },
+        "runtime": {
+          "Store.Vendas.Domain.dll": {}
+        },
+        "compile": {
+          "Store.Vendas.Domain.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -3333,6 +3424,13 @@
       "path": "entityframework/6.4.4",
       "hashPath": "entityframework.6.4.4.nupkg.sha512"
     },
+    "FluentValidation/10.3.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hsGRtnhTlCrRbxIOkKp6rCBtkq3UV0i31ckcJtd5j1i99zqLgbQGcbxK0SMU63DIto94f++uIdRpoycu8ySnDQ==",
+      "path": "fluentvalidation/10.3.4",
+      "hashPath": "fluentvalidation.10.3.4.nupkg.sha512"
+    },
     "Humanizer.Core/2.8.26": {
       "type": "package",
       "serviceable": true,
@@ -4147,6 +4245,36 @@
       "sha512": ""
     },
     "Store.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Store.Pagamentos.AntiCorruption/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Store.Pagamentos.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Store.Pagamentos.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Store.Vendas.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Store.Vendas.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Store.Vendas.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

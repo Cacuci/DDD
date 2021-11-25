@@ -1,0 +1,15 @@
+C:\Users\ti\Documents\GitHub\DDD\Store.Catalogo.Domain\bin\Release\net5.0\Store.Catalogo.Domain.deps.json
+C:\Users\ti\Documents\GitHub\DDD\Store.Catalogo.Domain\bin\Release\net5.0\Store.Catalogo.Domain.dll
+C:\Users\ti\Documents\GitHub\DDD\Store.Catalogo.Domain\bin\Release\net5.0\ref\Store.Catalogo.Domain.dll
+C:\Users\ti\Documents\GitHub\DDD\Store.Catalogo.Domain\bin\Release\net5.0\Store.Catalogo.Domain.pdb
+C:\Users\ti\Documents\GitHub\DDD\Store.Catalogo.Domain\bin\Release\net5.0\Store.Core.dll
+C:\Users\ti\Documents\GitHub\DDD\Store.Catalogo.Domain\bin\Release\net5.0\Store.Core.pdb
+C:\Users\ti\Documents\GitHub\DDD\Store.Catalogo.Domain\obj\Release\net5.0\Store.Catalogo.Domain.csproj.AssemblyReference.cache
+C:\Users\ti\Documents\GitHub\DDD\Store.Catalogo.Domain\obj\Release\net5.0\Store.Catalogo.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ti\Documents\GitHub\DDD\Store.Catalogo.Domain\obj\Release\net5.0\Store.Catalogo.Domain.AssemblyInfoInputs.cache
+C:\Users\ti\Documents\GitHub\DDD\Store.Catalogo.Domain\obj\Release\net5.0\Store.Catalogo.Domain.AssemblyInfo.cs
+C:\Users\ti\Documents\GitHub\DDD\Store.Catalogo.Domain\obj\Release\net5.0\Store.Catalogo.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ti\Documents\GitHub\DDD\Store.Catalogo.Domain\obj\Release\net5.0\Store.Catalogo.Domain.csproj.CopyComplete
+C:\Users\ti\Documents\GitHub\DDD\Store.Catalogo.Domain\obj\Release\net5.0\Store.Catalogo.Domain.dll
+C:\Users\ti\Documents\GitHub\DDD\Store.Catalogo.Domain\obj\Release\net5.0\ref\Store.Catalogo.Domain.dll
+C:\Users\ti\Documents\GitHub\DDD\Store.Catalogo.Domain\obj\Release\net5.0\Store.Catalogo.Domain.pdb

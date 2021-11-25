@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "8/gEzpDPn8RSf5/33qRjWDYZobCUZAeQZTOcG/kXLK5fXB8nLghUpy2ok+W9x9OSIUn1HWocICmK/s/s+N9aoA==",
+  "dgSpecHash": "Ca8VfGVhJARbUFSsuiBcTkSKsVPsJKtmBR+spimz1qxnWkAaZdzf3BdADbLzG3wNQD5/02/GhTRSDorvZynQBA==",
   "success": true,
   "projectFilePath": "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Catalogo.Application\\Store.Catalogo.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ti\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\ti\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
+    "C:\\Users\\ti\\.nuget\\packages\\fluentvalidation\\10.3.4\\fluentvalidation.10.3.4.nupkg.sha512",
     "C:\\Users\\ti\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\ti\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\ti\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

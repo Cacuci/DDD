@@ -1,0 +1,15 @@
+C:\Users\ti\Documents\GitHub\DDD\Store.Vendas.Domain\bin\Debug\net5.0\Store.Vendas.Domain.deps.json
+C:\Users\ti\Documents\GitHub\DDD\Store.Vendas.Domain\bin\Debug\net5.0\Store.Vendas.Domain.dll
+C:\Users\ti\Documents\GitHub\DDD\Store.Vendas.Domain\bin\Debug\net5.0\ref\Store.Vendas.Domain.dll
+C:\Users\ti\Documents\GitHub\DDD\Store.Vendas.Domain\bin\Debug\net5.0\Store.Vendas.Domain.pdb
+C:\Users\ti\Documents\GitHub\DDD\Store.Vendas.Domain\bin\Debug\net5.0\Store.Core.dll
+C:\Users\ti\Documents\GitHub\DDD\Store.Vendas.Domain\bin\Debug\net5.0\Store.Core.pdb
+C:\Users\ti\Documents\GitHub\DDD\Store.Vendas.Domain\obj\Debug\net5.0\Store.Vendas.Domain.csproj.AssemblyReference.cache
+C:\Users\ti\Documents\GitHub\DDD\Store.Vendas.Domain\obj\Debug\net5.0\Store.Vendas.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ti\Documents\GitHub\DDD\Store.Vendas.Domain\obj\Debug\net5.0\Store.Vendas.Domain.AssemblyInfoInputs.cache
+C:\Users\ti\Documents\GitHub\DDD\Store.Vendas.Domain\obj\Debug\net5.0\Store.Vendas.Domain.AssemblyInfo.cs
+C:\Users\ti\Documents\GitHub\DDD\Store.Vendas.Domain\obj\Debug\net5.0\Store.Vendas.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ti\Documents\GitHub\DDD\Store.Vendas.Domain\obj\Debug\net5.0\Store.Vendas.Domain.csproj.CopyComplete
+C:\Users\ti\Documents\GitHub\DDD\Store.Vendas.Domain\obj\Debug\net5.0\Store.Vendas.Domain.dll
+C:\Users\ti\Documents\GitHub\DDD\Store.Vendas.Domain\obj\Debug\net5.0\ref\Store.Vendas.Domain.dll
+C:\Users\ti\Documents\GitHub\DDD\Store.Vendas.Domain\obj\Debug\net5.0\Store.Vendas.Domain.pdb

@@ -45,7 +45,7 @@ namespace Store.Catalogo.Application.Services
 
         public async Task<ProdutoViewModel> DebitarEstoque(Guid id, int quantidade)
         {
-            if (!_estoqueService.DebitarEstoqueAsync(id, quantidade).Result)
+            if (!_estoqueService.DebitarEstoque(id, quantidade).Result)
             {
                 throw new DomainException(message: "Falha ao debitar estoque");
             }
@@ -55,7 +55,7 @@ namespace Store.Catalogo.Application.Services
 
         public async Task<ProdutoViewModel> ReporEstoque(Guid id, int quantidade)
         {
-            if (!_estoqueService.ReporEstoqueAsync(id, quantidade).Result)
+            if (!_estoqueService.ReporEstoque(id, quantidade).Result)
             {
                 throw new DomainException(message: "Falha ao repor estoque");
             }

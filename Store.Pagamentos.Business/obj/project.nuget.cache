@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "O5b9fB7gPTSBseYXhob62sNvSzUOr0z7xvoK6RJ25HDqD3E4tHvwhJo7A5q15WXaVBAyuPV9SZG0MUbo+UY2vg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Pagamentos.Business\\Store.Pagamentos.Business.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ti\\.nuget\\packages\\fluentvalidation\\10.3.4\\fluentvalidation.10.3.4.nupkg.sha512",
+    "C:\\Users\\ti\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

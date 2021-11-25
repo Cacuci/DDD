@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "bpPa/JW3l699SavcJm/fRCx5xVRoTNVAPuj5RYU54okP+Gu8iOW4BTLLRqBLhJ1/n8LDKbykqbaLl7kznCf9LQ==",
+  "dgSpecHash": "fQdPq+zEYDM0g4ib/0pW5Cay82fRTLg7LehwvUhAG8dl0jeBSONJ44YvGjzF3PDlSB6N8ZDStHSU/e+xycg0hQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.WebApp.MVC\\Store.WebApp.MVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ti\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\ti\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
     "C:\\Users\\ti\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
+    "C:\\Users\\ti\\.nuget\\packages\\fluentvalidation\\10.3.4\\fluentvalidation.10.3.4.nupkg.sha512",
     "C:\\Users\\ti\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ti\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\ti\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",

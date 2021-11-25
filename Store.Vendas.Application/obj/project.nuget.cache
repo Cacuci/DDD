@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Ak9YPgGXnw72F8Y1g+0y8j0H0r6TKhgK52dOn5U5n3w7kDCHNxFazSNEcp0kgc9nxsNnV/Qjh1F/IqeturmnCg==",
+  "dgSpecHash": "MSwE6naNyUvnUroUv7v9gRsdp7YhSGIbrCe+3+K/f284wSQhIGnVER00dKjbDc86GZdT0+Q7wWAip2EvXHbmQw==",
   "success": true,
   "projectFilePath": "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Vendas.Application\\Store.Vendas.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ti\\.nuget\\packages\\fluentvalidation\\10.3.4\\fluentvalidation.10.3.4.nupkg.sha512",
+    "C:\\Users\\ti\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

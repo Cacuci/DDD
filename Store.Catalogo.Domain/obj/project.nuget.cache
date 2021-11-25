@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "SIApZymgYyRrX197p6vpL/DFn15Rj6NRgp5lTzIygxg+fbqRGs7SV2nSqa/8QtNATm3/Ga30fpfho/BiT28NMg==",
+  "dgSpecHash": "NFBP4rcSinFlFAAJmFsLgGjh2nqxwYwUZN4Xzij/nn8IlNFA65+ehWcBjpamEqOvS4YPuxgmvaV6HdvI+0XkaQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Catalogo.Domain\\Store.Catalogo.Domain.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ti\\.nuget\\packages\\fluentvalidation\\10.3.4\\fluentvalidation.10.3.4.nupkg.sha512",
     "C:\\Users\\ti\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512"
   ],
   "logs": []

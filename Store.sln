@@ -29,11 +29,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Store.Catalogo.Domain", "St
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Vendas", "Vendas", "{A2CC36FE-AE6C-46CB-92EE-D51B1F0A266C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store.Vendas.Domain", "Store.Vendas.Domain\Store.Vendas.Domain.csproj", "{C0E146D1-B9D6-4D08-B1F3-6C0E282EF1DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Store.Vendas.Domain", "Store.Vendas.Domain\Store.Vendas.Domain.csproj", "{C0E146D1-B9D6-4D08-B1F3-6C0E282EF1DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store.Vendas.Application", "Store.Vendas.Application\Store.Vendas.Application.csproj", "{E194321D-90D3-484E-B0AB-9AE679DA00D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Store.Vendas.Application", "Store.Vendas.Application\Store.Vendas.Application.csproj", "{E194321D-90D3-484E-B0AB-9AE679DA00D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store.Vendas.Data", "Store.Vendas.Data\Store.Vendas.Data.csproj", "{C86B8B1B-8156-424B-AFBE-3CB29DFAA0BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Store.Vendas.Data", "Store.Vendas.Data\Store.Vendas.Data.csproj", "{C86B8B1B-8156-424B-AFBE-3CB29DFAA0BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pagamentos", "Pagamentos", "{2BC6A675-F719-428C-8739-EDA44503F1D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store.Pagamentos.AntiCorruption", "Store.Pagamentos.AntiCorruption\Store.Pagamentos.AntiCorruption.csproj", "{D0251860-2954-4F14-8812-3DAA32BC69C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store.Pagamentos.Business", "Store.Pagamentos.Business\Store.Pagamentos.Business.csproj", "{9972B587-6F6A-4F33-B4CF-4917E4DABC8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store.Pagamentos.Data", "Store.Pagamentos.Data\Store.Pagamentos.Data.csproj", "{C8042F27-7696-4E8E-88B3-CB336AF3B606}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -77,6 +85,18 @@ Global
 		{C86B8B1B-8156-424B-AFBE-3CB29DFAA0BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C86B8B1B-8156-424B-AFBE-3CB29DFAA0BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C86B8B1B-8156-424B-AFBE-3CB29DFAA0BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0251860-2954-4F14-8812-3DAA32BC69C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0251860-2954-4F14-8812-3DAA32BC69C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0251860-2954-4F14-8812-3DAA32BC69C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0251860-2954-4F14-8812-3DAA32BC69C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9972B587-6F6A-4F33-B4CF-4917E4DABC8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9972B587-6F6A-4F33-B4CF-4917E4DABC8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9972B587-6F6A-4F33-B4CF-4917E4DABC8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9972B587-6F6A-4F33-B4CF-4917E4DABC8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8042F27-7696-4E8E-88B3-CB336AF3B606}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8042F27-7696-4E8E-88B3-CB336AF3B606}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8042F27-7696-4E8E-88B3-CB336AF3B606}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8042F27-7696-4E8E-88B3-CB336AF3B606}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -96,6 +116,10 @@ Global
 		{C0E146D1-B9D6-4D08-B1F3-6C0E282EF1DF} = {A2CC36FE-AE6C-46CB-92EE-D51B1F0A266C}
 		{E194321D-90D3-484E-B0AB-9AE679DA00D8} = {A2CC36FE-AE6C-46CB-92EE-D51B1F0A266C}
 		{C86B8B1B-8156-424B-AFBE-3CB29DFAA0BD} = {A2CC36FE-AE6C-46CB-92EE-D51B1F0A266C}
+		{2BC6A675-F719-428C-8739-EDA44503F1D6} = {68F89B88-5C6C-45DA-A45C-4FABAF8DB10E}
+		{D0251860-2954-4F14-8812-3DAA32BC69C4} = {2BC6A675-F719-428C-8739-EDA44503F1D6}
+		{9972B587-6F6A-4F33-B4CF-4917E4DABC8F} = {2BC6A675-F719-428C-8739-EDA44503F1D6}
+		{C8042F27-7696-4E8E-88B3-CB336AF3B606} = {2BC6A675-F719-428C-8739-EDA44503F1D6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B7A8BDCD-5EC8-439B-9564-F83DB0A259EC}

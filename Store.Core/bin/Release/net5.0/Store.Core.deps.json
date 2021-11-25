@@ -8,10 +8,19 @@
     ".NETCoreApp,Version=v5.0": {
       "Store.Core/1.0.0": {
         "dependencies": {
+          "FluentValidation": "10.3.4",
           "MediatR": "9.0.0"
         },
         "runtime": {
           "Store.Core.dll": {}
+        }
+      },
+      "FluentValidation/10.3.4": {
+        "runtime": {
+          "lib/net5.0/FluentValidation.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "10.3.4.0"
+          }
         }
       },
       "MediatR/9.0.0": {
@@ -29,6 +38,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "FluentValidation/10.3.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hsGRtnhTlCrRbxIOkKp6rCBtkq3UV0i31ckcJtd5j1i99zqLgbQGcbxK0SMU63DIto94f++uIdRpoycu8ySnDQ==",
+      "path": "fluentvalidation/10.3.4",
+      "hashPath": "fluentvalidation.10.3.4.nupkg.sha512"
     },
     "MediatR/9.0.0": {
       "type": "package",

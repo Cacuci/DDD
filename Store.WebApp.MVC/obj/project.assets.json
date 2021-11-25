@@ -51,6 +51,15 @@
           "buildTransitive/netcoreapp3.0/EntityFramework.targets": {}
         }
       },
+      "FluentValidation/10.3.4": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/FluentValidation.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/FluentValidation.dll": {}
+        }
+      },
       "Humanizer.Core/2.8.26": {
         "type": "package",
         "compile": {
@@ -1835,6 +1844,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "FluentValidation": "10.3.4",
           "MediatR": "9.0.0"
         },
         "compile": {
@@ -1842,6 +1852,92 @@
         },
         "runtime": {
           "bin/placeholder/Store.Core.dll": {}
+        }
+      },
+      "Store.Pagamentos.AntiCorruption/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Store.Pagamentos.Business": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Store.Pagamentos.AntiCorruption.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Store.Pagamentos.AntiCorruption.dll": {}
+        }
+      },
+      "Store.Pagamentos.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Store.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Store.Pagamentos.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Store.Pagamentos.Business.dll": {}
+        }
+      },
+      "Store.Pagamentos.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.5",
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.5",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.5",
+          "Store.Core": "1.0.0",
+          "Store.Pagamentos.Business": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Store.Pagamentos.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Store.Pagamentos.Data.dll": {}
+        }
+      },
+      "Store.Vendas.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Store.Core": "1.0.0",
+          "Store.Vendas.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Store.Vendas.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Store.Vendas.Application.dll": {}
+        }
+      },
+      "Store.Vendas.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.5",
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.5",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.5",
+          "Store.Vendas.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Store.Vendas.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Store.Vendas.Data.dll": {}
+        }
+      },
+      "Store.Vendas.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Store.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Store.Vendas.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Store.Vendas.Domain.dll": {}
         }
       }
     }
@@ -1931,6 +2027,24 @@
         "tools/netcoreapp3.0/any/ef6.dll",
         "tools/netcoreapp3.0/any/ef6.pdb",
         "tools/netcoreapp3.0/any/ef6.runtimeconfig.json"
+      ]
+    },
+    "FluentValidation/10.3.4": {
+      "sha512": "hsGRtnhTlCrRbxIOkKp6rCBtkq3UV0i31ckcJtd5j1i99zqLgbQGcbxK0SMU63DIto94f++uIdRpoycu8ySnDQ==",
+      "type": "package",
+      "path": "fluentvalidation/10.3.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fluent-validation-icon.png",
+        "fluentvalidation.10.3.4.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
       ]
     },
     "Humanizer.Core/2.8.26": {
@@ -6647,6 +6761,36 @@
       "type": "project",
       "path": "../Store.Core/Store.Core.csproj",
       "msbuildProject": "../Store.Core/Store.Core.csproj"
+    },
+    "Store.Pagamentos.AntiCorruption/1.0.0": {
+      "type": "project",
+      "path": "../Store.Pagamentos.AntiCorruption/Store.Pagamentos.AntiCorruption.csproj",
+      "msbuildProject": "../Store.Pagamentos.AntiCorruption/Store.Pagamentos.AntiCorruption.csproj"
+    },
+    "Store.Pagamentos.Business/1.0.0": {
+      "type": "project",
+      "path": "../Store.Pagamentos.Business/Store.Pagamentos.Business.csproj",
+      "msbuildProject": "../Store.Pagamentos.Business/Store.Pagamentos.Business.csproj"
+    },
+    "Store.Pagamentos.Data/1.0.0": {
+      "type": "project",
+      "path": "../Store.Pagamentos.Data/Store.Pagamentos.Data.csproj",
+      "msbuildProject": "../Store.Pagamentos.Data/Store.Pagamentos.Data.csproj"
+    },
+    "Store.Vendas.Application/1.0.0": {
+      "type": "project",
+      "path": "../Store.Vendas.Application/Store.Vendas.Application.csproj",
+      "msbuildProject": "../Store.Vendas.Application/Store.Vendas.Application.csproj"
+    },
+    "Store.Vendas.Data/1.0.0": {
+      "type": "project",
+      "path": "../Store.Vendas.Data/Store.Vendas.Data.csproj",
+      "msbuildProject": "../Store.Vendas.Data/Store.Vendas.Data.csproj"
+    },
+    "Store.Vendas.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Store.Vendas.Domain/Store.Vendas.Domain.csproj",
+      "msbuildProject": "../Store.Vendas.Domain/Store.Vendas.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6661,7 +6805,12 @@
       "Store.Catalogo.Application >= 1.0.0",
       "Store.Catalogo.Data >= 1.0.0",
       "Store.Catalogo.Domain >= 1.0.0",
-      "Store.Core >= 1.0.0"
+      "Store.Core >= 1.0.0",
+      "Store.Pagamentos.AntiCorruption >= 1.0.0",
+      "Store.Pagamentos.Business >= 1.0.0",
+      "Store.Pagamentos.Data >= 1.0.0",
+      "Store.Vendas.Application >= 1.0.0",
+      "Store.Vendas.Data >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -6711,6 +6860,21 @@
             },
             "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Core\\Store.Core.csproj": {
               "projectPath": "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Core\\Store.Core.csproj"
+            },
+            "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Pagamentos.AntiCorruption\\Store.Pagamentos.AntiCorruption.csproj": {
+              "projectPath": "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Pagamentos.AntiCorruption\\Store.Pagamentos.AntiCorruption.csproj"
+            },
+            "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Pagamentos.Business\\Store.Pagamentos.Business.csproj": {
+              "projectPath": "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Pagamentos.Business\\Store.Pagamentos.Business.csproj"
+            },
+            "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Pagamentos.Data\\Store.Pagamentos.Data.csproj": {
+              "projectPath": "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Pagamentos.Data\\Store.Pagamentos.Data.csproj"
+            },
+            "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Vendas.Application\\Store.Vendas.Application.csproj": {
+              "projectPath": "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Vendas.Application\\Store.Vendas.Application.csproj"
+            },
+            "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Vendas.Data\\Store.Vendas.Data.csproj": {
+              "projectPath": "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Vendas.Data\\Store.Vendas.Data.csproj"
             }
           }
         }

@@ -52,12 +52,12 @@ namespace Store.Catalogo.Data.Repository
 
         public async Task<Produto> ObterPorID(Guid id)
         {
-            return await _context.Produtos.AsNoTracking().FirstOrDefaultAsync(p => p.ID == id);
+            return _context.Produtos.AsNoTracking().FirstOrDefault(p => p.ID == id);
         }
 
         public async Task<IEnumerable<Produto>> ObterTodos()
         {
-            return await _context.Produtos.AsNoTracking().ToListAsync();
+            return _context.Produtos.AsNoTracking().ToList();
         }
 
         public void Dispose()

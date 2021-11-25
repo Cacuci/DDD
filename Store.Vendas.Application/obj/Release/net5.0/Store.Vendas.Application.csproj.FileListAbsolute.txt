@@ -1,0 +1,17 @@
+C:\Users\ti\Documents\GitHub\DDD\Store.Vendas.Application\bin\Release\net5.0\Store.Vendas.Application.deps.json
+C:\Users\ti\Documents\GitHub\DDD\Store.Vendas.Application\bin\Release\net5.0\Store.Vendas.Application.dll
+C:\Users\ti\Documents\GitHub\DDD\Store.Vendas.Application\bin\Release\net5.0\ref\Store.Vendas.Application.dll
+C:\Users\ti\Documents\GitHub\DDD\Store.Vendas.Application\bin\Release\net5.0\Store.Vendas.Application.pdb
+C:\Users\ti\Documents\GitHub\DDD\Store.Vendas.Application\bin\Release\net5.0\Store.Core.dll
+C:\Users\ti\Documents\GitHub\DDD\Store.Vendas.Application\bin\Release\net5.0\Store.Vendas.Domain.dll
+C:\Users\ti\Documents\GitHub\DDD\Store.Vendas.Application\bin\Release\net5.0\Store.Core.pdb
+C:\Users\ti\Documents\GitHub\DDD\Store.Vendas.Application\bin\Release\net5.0\Store.Vendas.Domain.pdb
+C:\Users\ti\Documents\GitHub\DDD\Store.Vendas.Application\obj\Release\net5.0\Store.Vendas.Application.csproj.AssemblyReference.cache
+C:\Users\ti\Documents\GitHub\DDD\Store.Vendas.Application\obj\Release\net5.0\Store.Vendas.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ti\Documents\GitHub\DDD\Store.Vendas.Application\obj\Release\net5.0\Store.Vendas.Application.AssemblyInfoInputs.cache
+C:\Users\ti\Documents\GitHub\DDD\Store.Vendas.Application\obj\Release\net5.0\Store.Vendas.Application.AssemblyInfo.cs
+C:\Users\ti\Documents\GitHub\DDD\Store.Vendas.Application\obj\Release\net5.0\Store.Vendas.Application.csproj.CoreCompileInputs.cache
+C:\Users\ti\Documents\GitHub\DDD\Store.Vendas.Application\obj\Release\net5.0\Store.Vendas.Application.csproj.CopyComplete
+C:\Users\ti\Documents\GitHub\DDD\Store.Vendas.Application\obj\Release\net5.0\Store.Vendas.Application.dll
+C:\Users\ti\Documents\GitHub\DDD\Store.Vendas.Application\obj\Release\net5.0\ref\Store.Vendas.Application.dll
+C:\Users\ti\Documents\GitHub\DDD\Store.Vendas.Application\obj\Release\net5.0\Store.Vendas.Application.pdb

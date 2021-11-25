@@ -1,0 +1,15 @@
+C:\Users\ti\Documents\GitHub\DDD\Store.Pagamentos.Business\bin\Release\net5.0\Store.Pagamentos.Business.deps.json
+C:\Users\ti\Documents\GitHub\DDD\Store.Pagamentos.Business\bin\Release\net5.0\Store.Pagamentos.Business.dll
+C:\Users\ti\Documents\GitHub\DDD\Store.Pagamentos.Business\bin\Release\net5.0\ref\Store.Pagamentos.Business.dll
+C:\Users\ti\Documents\GitHub\DDD\Store.Pagamentos.Business\bin\Release\net5.0\Store.Pagamentos.Business.pdb
+C:\Users\ti\Documents\GitHub\DDD\Store.Pagamentos.Business\bin\Release\net5.0\Store.Core.dll
+C:\Users\ti\Documents\GitHub\DDD\Store.Pagamentos.Business\bin\Release\net5.0\Store.Core.pdb
+C:\Users\ti\Documents\GitHub\DDD\Store.Pagamentos.Business\obj\Release\net5.0\Store.Pagamentos.Business.csproj.AssemblyReference.cache
+C:\Users\ti\Documents\GitHub\DDD\Store.Pagamentos.Business\obj\Release\net5.0\Store.Pagamentos.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ti\Documents\GitHub\DDD\Store.Pagamentos.Business\obj\Release\net5.0\Store.Pagamentos.Business.AssemblyInfoInputs.cache
+C:\Users\ti\Documents\GitHub\DDD\Store.Pagamentos.Business\obj\Release\net5.0\Store.Pagamentos.Business.AssemblyInfo.cs
+C:\Users\ti\Documents\GitHub\DDD\Store.Pagamentos.Business\obj\Release\net5.0\Store.Pagamentos.Business.csproj.CoreCompileInputs.cache
+C:\Users\ti\Documents\GitHub\DDD\Store.Pagamentos.Business\obj\Release\net5.0\Store.Pagamentos.Business.csproj.CopyComplete
+C:\Users\ti\Documents\GitHub\DDD\Store.Pagamentos.Business\obj\Release\net5.0\Store.Pagamentos.Business.dll
+C:\Users\ti\Documents\GitHub\DDD\Store.Pagamentos.Business\obj\Release\net5.0\ref\Store.Pagamentos.Business.dll
+C:\Users\ti\Documents\GitHub\DDD\Store.Pagamentos.Business\obj\Release\net5.0\Store.Pagamentos.Business.pdb

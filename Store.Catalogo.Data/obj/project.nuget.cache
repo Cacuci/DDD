@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "v4t9k2oZd1StKYiNUYiVFxoRdRF61jOfl4pCAaX7OwbHRpBu+W9hH5nn7cN+ralakNGNDW9XVXOPHvXm+scp1A==",
+  "dgSpecHash": "GwtqHVg1YFPvTldPgBuBw/3+i6xRDROOjBtLePdsgChdKgZL2omqqI1mjCLYo5URZWvMR8/vloSmB7ILW7fSaw==",
   "success": true,
   "projectFilePath": "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Catalogo.Data\\Store.Catalogo.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ti\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
+    "C:\\Users\\ti\\.nuget\\packages\\fluentvalidation\\10.3.4\\fluentvalidation.10.3.4.nupkg.sha512",
     "C:\\Users\\ti\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ti\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\ti\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

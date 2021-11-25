@@ -278,11 +278,451 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.3.4, )"
+            },
             "MediatR": {
               "target": "Package",
               "version": "[9.0.0, )"
             }
           },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Pagamentos.AntiCorruption\\Store.Pagamentos.AntiCorruption.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Pagamentos.AntiCorruption\\Store.Pagamentos.AntiCorruption.csproj",
+        "projectName": "Store.Pagamentos.AntiCorruption",
+        "projectPath": "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Pagamentos.AntiCorruption\\Store.Pagamentos.AntiCorruption.csproj",
+        "packagesPath": "C:\\Users\\ti\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Pagamentos.AntiCorruption\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Pagamentos.Business\\Store.Pagamentos.Business.csproj": {
+                "projectPath": "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Pagamentos.Business\\Store.Pagamentos.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Pagamentos.Business\\Store.Pagamentos.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Pagamentos.Business\\Store.Pagamentos.Business.csproj",
+        "projectName": "Store.Pagamentos.Business",
+        "projectPath": "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Pagamentos.Business\\Store.Pagamentos.Business.csproj",
+        "packagesPath": "C:\\Users\\ti\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Pagamentos.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Core\\Store.Core.csproj": {
+                "projectPath": "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Core\\Store.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Pagamentos.Data\\Store.Pagamentos.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Pagamentos.Data\\Store.Pagamentos.Data.csproj",
+        "projectName": "Store.Pagamentos.Data",
+        "projectPath": "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Pagamentos.Data\\Store.Pagamentos.Data.csproj",
+        "packagesPath": "C:\\Users\\ti\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Pagamentos.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Core\\Store.Core.csproj": {
+                "projectPath": "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Core\\Store.Core.csproj"
+              },
+              "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Pagamentos.Business\\Store.Pagamentos.Business.csproj": {
+                "projectPath": "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Pagamentos.Business\\Store.Pagamentos.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Vendas.Application\\Store.Vendas.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Vendas.Application\\Store.Vendas.Application.csproj",
+        "projectName": "Store.Vendas.Application",
+        "projectPath": "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Vendas.Application\\Store.Vendas.Application.csproj",
+        "packagesPath": "C:\\Users\\ti\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Vendas.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Core\\Store.Core.csproj": {
+                "projectPath": "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Core\\Store.Core.csproj"
+              },
+              "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Vendas.Domain\\Store.Vendas.Domain.csproj": {
+                "projectPath": "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Vendas.Domain\\Store.Vendas.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Vendas.Data\\Store.Vendas.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Vendas.Data\\Store.Vendas.Data.csproj",
+        "projectName": "Store.Vendas.Data",
+        "projectPath": "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Vendas.Data\\Store.Vendas.Data.csproj",
+        "packagesPath": "C:\\Users\\ti\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Vendas.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Vendas.Domain\\Store.Vendas.Domain.csproj": {
+                "projectPath": "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Vendas.Domain\\Store.Vendas.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Vendas.Domain\\Store.Vendas.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Vendas.Domain\\Store.Vendas.Domain.csproj",
+        "projectName": "Store.Vendas.Domain",
+        "projectPath": "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Vendas.Domain\\Store.Vendas.Domain.csproj",
+        "packagesPath": "C:\\Users\\ti\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Vendas.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Core\\Store.Core.csproj": {
+                "projectPath": "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Core\\Store.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
           "imports": [
             "net461",
             "net462",
@@ -344,6 +784,21 @@
               },
               "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Core\\Store.Core.csproj": {
                 "projectPath": "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Core\\Store.Core.csproj"
+              },
+              "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Pagamentos.AntiCorruption\\Store.Pagamentos.AntiCorruption.csproj": {
+                "projectPath": "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Pagamentos.AntiCorruption\\Store.Pagamentos.AntiCorruption.csproj"
+              },
+              "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Pagamentos.Business\\Store.Pagamentos.Business.csproj": {
+                "projectPath": "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Pagamentos.Business\\Store.Pagamentos.Business.csproj"
+              },
+              "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Pagamentos.Data\\Store.Pagamentos.Data.csproj": {
+                "projectPath": "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Pagamentos.Data\\Store.Pagamentos.Data.csproj"
+              },
+              "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Vendas.Application\\Store.Vendas.Application.csproj": {
+                "projectPath": "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Vendas.Application\\Store.Vendas.Application.csproj"
+              },
+              "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Vendas.Data\\Store.Vendas.Data.csproj": {
+                "projectPath": "C:\\Users\\ti\\Documents\\GitHub\\DDD\\Store.Vendas.Data\\Store.Vendas.Data.csproj"
               }
             }
           }
